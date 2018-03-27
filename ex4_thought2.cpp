@@ -12,6 +12,7 @@ int main(int argc, char const *argv[])
 		sum += 1.0/i;
 	}
 	i -= 2;
-	cout << i <<endl; 
+	cout << "s = 1 + 1/2 + ... + 1/n ->8" << endl
+		<< "n = " << i << ", s = " << t <<endl; 
 	return 0;
 }
